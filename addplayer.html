@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> CRUD Player </title>
+        <link rel="stylesheet" href="style.css" >
+    </head>
+    <body>
+    <div class=" backgrn">
+    <div class="home" >
+        
+        <div class="logout">
+            <button class="btn" onclick="location.href='coachhome.html'"> Back </button>
+            </div>
+        <h1> Manage Players </h1>
+        <br>
+       
+        <div class="add">
+            <input placeholder="First name" type="text" id="fname" required>
+            <input placeholder="Last name" type="text" id="lname" required>
+            <input placeholder="Born day" type="text" id="bday" required>
+            <input placeholder="Nationality" type="text" id="nty" required>
+            <input placeholder="Player rating" type="text" id="prt" required>
+            <input placeholder="Salary" type="text" id="salary" required>
+            <input placeholder="Phone Number" type="text" id="pnum" required>
+            <input placeholder="Password" type="text" id="psw" required>
+        </div>
+        <div class="submit">
+            <button class="button">Creat</button>
+        </div>
+        <br><br>
+
+
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Born day</th>
+                <th>Nationality</th>
+                <th>Player rating</th>
+                <th>Salary</th>
+                <th>Phone Number</th>
+                <th>Password</th>
+                <th>Delete</th>
+                <th>Update</th>
+            </tr>
+            <tbody id="tbody">
+            
+            </tbody>
+        </table>
+        <br><br><br><br>
+
+
+
+    </div>
+    </div>
+    <script defer src="./CRUDplayer.js">  </script>
+    </body>
+    <div class="buttom">
+        <h2> Developed by : CHEIKHI Mohamed // Framed by : Sc50 </h2>
+    </div>
+</html>
